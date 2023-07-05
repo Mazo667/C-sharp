@@ -1,6 +1,9 @@
 using System;
-class HolaMundo {
-    public static void Main(){
-        Console.WriteLine("Hola mundo");  
- 	}
+namespace HolaMundo{
+    class Hola{
+        static void Main(string[]args){
+            Console.WriteLine("HOLA MUNDO");
+            Console.WriteLine("BIENVENIDO A C#");
+        }
+    }
 }
